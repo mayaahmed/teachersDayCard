@@ -1,0 +1,45 @@
+
+
+.card{position:absolute; 
+background:skyblue; width:500px; height:300px; border-radius:7px;
+overflow: hidden;
+color: white;
+text-align: center;
+font: 40px bold;
+ line-height: 250px;
+}
+
+
+#card1{position:absolute; 
+
+background:#006400;
+opacity: 0.5;
+width:500px; height:300px; border-radius:7px;
+transition: transform .5s linear 0s;
+}
+
+  
+
+#card2{position:absolute; 
+
+background:#FFA07A;
+opacity: 0.3;
+width:500px; height:300px; border-radius:7px;
+transition: transform .5s linear 0s;
+}
+
+#card3{position:absolute; 
+
+background: skyblue; opacity: 0.5;
+width:500px; height:300px; border-radius:7px;
+transition: transform .5s linear 0s;
+}
+
+span{
+opacity:0.4;
+}
+
+span:hover{
+opacity:0.9;
+}  
+
